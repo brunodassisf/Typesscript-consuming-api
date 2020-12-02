@@ -1,0 +1,20 @@
+{
+  "name": "Typescript-PokeAPI",
+  "version": "1.0.0",
+  "description": "Projeto visando conhecimento com TypeScript e consumindo API.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"npm run watch\" \"npm run server\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "server": "lite-server --baseDir=app"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.4",
+    "concurrently": "^5.3.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.1.2"
+  }
+}
