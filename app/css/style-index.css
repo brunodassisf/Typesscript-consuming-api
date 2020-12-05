@@ -1,0 +1,33 @@
+.menu-navegator {
+    margin-top: 100px;
+}
+
+.menu-navegator ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-navegator li {
+    width: 33%;
+    text-align: center;
+}
+
+.menu-navegator li a {
+   font-size: 20px;
+}
+
+.spinnerLoading {
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.spinnerLoading .spinner-border {
+    color:rgb(247 196 6);
+    width: 4rem;
+    height: 4rem;
+}
