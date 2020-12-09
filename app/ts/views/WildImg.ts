@@ -5,9 +5,8 @@ export class WildImg extends View<Pokemon> {
   template(model: Pokemon): string {
     return `
         <div class="pokemon-wild">
-            <img class="img-fluid img-filter" src="${model.img}" alt="${model.name}" />
+          <img class="img-fluid wild-img img-filter" src="${model.img}" alt="${model.name}" />
         </div>
-        
         `;
   }
 }

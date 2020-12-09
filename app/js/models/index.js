@@ -1,4 +1,4 @@
-System.register(["./pokemon"], function (exports_1, context_1) {
+System.register(["./Pokemon", "./Mensagem"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     function exportStar_1(m) {
@@ -10,8 +10,11 @@ System.register(["./pokemon"], function (exports_1, context_1) {
     }
     return {
         setters: [
-            function (pokemon_1_1) {
-                exportStar_1(pokemon_1_1);
+            function (Pokemon_1_1) {
+                exportStar_1(Pokemon_1_1);
+            },
+            function (Mensagem_1_1) {
+                exportStar_1(Mensagem_1_1);
             }
         ],
         execute: function () {

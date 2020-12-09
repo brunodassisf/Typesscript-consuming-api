@@ -13,6 +13,19 @@ System.register([], function (exports_1, context_1) {
                     let template = this.template(model);
                     this._selectorHTML.html(template);
                 }
+                addClass(nameClass, hasChildren) {
+                    if (hasChildren) {
+                        this._selectorHTML.children().addClass(nameClass);
+                    }
+                    else {
+                        this._selectorHTML.addClass(nameClass);
+                    }
+                }
+                removeView() {
+                    setTimeout(() => {
+                        this._selectorHTML.children().remove();
+                    }, 2000);
+                }
             };
             exports_1("View", View);
         }

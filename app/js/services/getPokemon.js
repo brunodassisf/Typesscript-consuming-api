@@ -22,7 +22,6 @@ System.register(["../utils/index"], function (exports_1, context_1) {
                             stats: dados.stats,
                             abilities: dados.abilities
                         };
-                        console.log(pokemon);
                         return pokemon;
                     })
                         .catch((erro) => console.log(erro));

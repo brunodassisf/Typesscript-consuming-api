@@ -1,4 +1,4 @@
-System.register(["./View", "./WildImg", "./WildData"], function (exports_1, context_1) {
+System.register(["./View", "./WildImg", "./WildData", "./Alert"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     function exportStar_1(m) {
@@ -18,6 +18,9 @@ System.register(["./View", "./WildImg", "./WildData"], function (exports_1, cont
             },
             function (WildData_1_1) {
                 exportStar_1(WildData_1_1);
+            },
+            function (Alert_1_1) {
+                exportStar_1(Alert_1_1);
             }
         ],
         execute: function () {

@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .info-wild ul,
+  .typesAndAbilities {
+    width: 100% !important;
+  }
+  .div-btn-wild {
+    background: radial-gradient(
+      circle,
+      rgba(42, 117, 187, 0.87718837535014) 0%,
+      rgba(184, 209, 232, 0.8855917366946778) 53%,
+      rgba(255, 255, 255, 0.8799894957983193) 70%
+    );
+  }
+}

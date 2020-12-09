@@ -13,9 +13,8 @@ System.register(["./View"], function (exports_1, context_1) {
                 template(model) {
                     return `
         <div class="pokemon-wild">
-            <img class="img-fluid img-filter" src="${model.img}" alt="${model.name}" />
+          <img class="img-fluid wild-img img-filter" src="${model.img}" alt="${model.name}" />
         </div>
-        
         `;
                 }
             };

@@ -1,4 +1,4 @@
-System.register(["./handlerRandomNumber", "./handlerSpinner", "./handlerClass"], function (exports_1, context_1) {
+System.register(["./handlerRandomNumber", "./handlerSpinner", "./handlerClass", "./handlerClimate", "./handlerAlert"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     function exportStar_1(m) {
@@ -18,6 +18,12 @@ System.register(["./handlerRandomNumber", "./handlerSpinner", "./handlerClass"],
             },
             function (handlerClass_1_1) {
                 exportStar_1(handlerClass_1_1);
+            },
+            function (handlerClimate_1_1) {
+                exportStar_1(handlerClimate_1_1);
+            },
+            function (handlerAlert_1_1) {
+                exportStar_1(handlerAlert_1_1);
             }
         ],
         execute: function () {

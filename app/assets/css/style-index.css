@@ -1,0 +1,105 @@
+a:hover {
+  text-decoration: none !important;
+}
+
+#climate {
+  height: 420px;
+}
+
+.menu-navegator {
+  margin-top: -320px;
+}
+
+.menu-navegator li {
+  width: 33%;
+  text-align: center;
+}
+
+.menu-navegator li a {
+  font-size: 20px;
+}
+
+.spinnerLoading {
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.spinnerLoading .spinner-border {
+  color: rgb(247 196 6);
+  width: 4rem;
+  height: 4rem;
+}
+
+.navbar-brand {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3a5da9;
+  -webkit-text-fill-color: #ffcb05;
+  letter-spacing: 2px;
+  font-family: "pokemon";
+  font-size: 18px;
+}
+
+#alerts-app {
+  top: 8%;
+  transform: translate(-3%, 0%);
+  right: 0%;
+}
+
+
+#alerts-app .div-alert {
+  width: 320px;
+  background-color: white;
+}
+
+  .slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+
+    .fadeOut {
+      -webkit-animation-name: fadeOut;
+      animation-name: fadeOut;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      }
+      @-webkit-keyframes fadeOut {
+      0% {opacity: 1;}
+      100% {opacity: 0;}
+      }
+      @keyframes fadeOut {
+      0% {opacity: 1;}
+      100% {opacity: 0;}
+      } 

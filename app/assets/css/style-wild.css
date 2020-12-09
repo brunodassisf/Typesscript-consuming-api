@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "pokemon-border";
+  src: url("../font/PokemonHollow.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "pokemon";
+  src: url("../font/PokemonSolid.ttf") format("opentype");
+}
+.pokemon-wild .wild-img {
+  width: 300px;
+  height: 200px;
+}
+
+.img-filter {
+  filter: brightness(0);
+}
+
+.div-btn-wild {
+  min-height: 300px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, rgba(42,117,187,0.87718837535014) 18%, rgba(184,209,232,0.8855917366946778) 30%, rgba(255,255,255,0.8799894957983193) 39%);
+}
+
+#show-wild {
+  font-size: 40px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #3a5da9;
+  -webkit-text-fill-color: #ffcb05;
+  letter-spacing: 6px;
+  font-family: "pokemon";
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.info-wild div p {
+  font-size: 35px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #3a5da9;
+  -webkit-text-fill-color: #ffcb05;
+  letter-spacing: 6px;
+  font-family: "pokemon";
+  overflow-wrap: break-word;
+}
+
+.info-wild .stats li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-wild .stats .progress {
+  width: 80%;
+  height: 1.4rem;
+  font-size: 1rem;
+}
+
+.info-wild .stats .hp {
+  background-color: #ff5959;
+}
+
+.info-wild .stats .hp div {
+  background-color: #ff0000;
+}
+
+.info-wild .stats .attack {
+  background-color: #f5ac78;
+}
+
+.info-wild .stats .attack div {
+  background-color: #f08030;
+}
+
+.info-wild .stats .defense {
+  background-color: #fae078;
+}
+
+.info-wild .stats .defense div {
+  background-color: #f8d030;
+}
+
+.info-wild .stats .special-attack {
+  background-color: #9db7f5;
+}
+
+.info-wild .stats .special-attack div {
+  background-color: #6890f0;
+}
+
+.info-wild .stats .special-defense {
+  background-color: #a7db8d;
+}
+
+.info-wild .stats .special-defense div {
+  background-color: #78c850;
+}
+
+.info-wild .stats .speed {
+  background-color: #fa92b2;
+}
+
+.info-wild .stats .speed div {
+  background-color: #f85888;
+}
+
+.info-wild .types span,
+.info-wild .abilities div {
+  border-style: groove;
+  margin: 7px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 11px;
+  min-width: 32%;
+  align-items: center;
+}
+
+.info-wild .types div {
+  text-align: center;
+}
+
+.info-wild .abilities {
+  display: flex;
+}
+
+.info-wild .stats div .fa-heart {
+  color: #ff5959;
+}
+
+.info-wild .stats div .fa-fist-raised {
+  color: #f5ac78;
+}
+
+.info-wild .stats div .fa-shield-alt {
+  color: #fae078;
+}
+
+.info-wild .stats div .fa-star {
+  color: #ffcb05;
+  position: absolute;
+  bottom: 3px;
+  left: 9px;
+  font-size: 12px;
+}
+
+.info-wild .stats div .fa-tachometer-alt {
+  color: #7501db;
+}
+
+.info-wild .stats div .special-attack2 {
+  color: #9db7f5 !important;
+  background-color: #ffffff;
+}
+
+.info-wild .stats .special-defense2 {
+  color: #a7db8d !important;
+  background-color: #ffffff;
+}
+
+.list-group-item {
+  padding: 0.25rem 0.25rem;
+}
+
+#pokeball-catch {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#pokeball-catch p {
+  margin-bottom: 0px;
+  margin-left: 5px;
+  font-size: 20px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #3a5da9;
+  -webkit-text-fill-color: #ffcb05;
+  letter-spacing: 5px;
+  font-family: "pokemon";
+}
+
+.pokeball-catch-img {
+  width: 55px;
+}
+
+#pokeball-catch:hover > .pokeball-catch-img {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
